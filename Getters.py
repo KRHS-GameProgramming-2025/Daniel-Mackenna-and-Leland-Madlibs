@@ -20,6 +20,13 @@ def getMenuoption(debug = False):
            option == "story 1"):
                option = "1"
                goodinput = True
+               
+        elif (option == "2" or
+           option == "two" or
+           option == "story2" or
+           option == "story 2"):
+               option = "2"
+               goodinput = True
         else:
             print("Please make a valid choice")
         

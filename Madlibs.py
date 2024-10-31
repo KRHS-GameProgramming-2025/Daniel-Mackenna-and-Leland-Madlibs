@@ -1,6 +1,7 @@
 from Screens import *
 from Getters import *
 from Story1 import *
+from Story2 import *
 
 
 def Madlibs(debug = False):
@@ -20,8 +21,12 @@ def Madlibs(debug = False):
         
         if choice == "q":
             exit();
-        if choice == "1":
+        elif choice == "1":
             print (Story1())
+            print ("\n")
+            input("press enter to continue")
+        elif choice == "2":
+            print (Story2())
             print ("\n")
             input("press enter to continue")
 
