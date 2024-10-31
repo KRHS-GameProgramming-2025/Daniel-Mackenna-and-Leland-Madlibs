@@ -40,4 +40,4 @@ def Story1(debug=False):
     out += ""
     out += ""
     
-    return out
+   

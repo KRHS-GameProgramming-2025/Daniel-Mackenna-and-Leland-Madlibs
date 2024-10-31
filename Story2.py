@@ -7,5 +7,7 @@ def Story2(debug=False):
     
     
     out = "\n"
+    out = 'one day me and my friend'
+    out = 'were listening to a song called'
     
     return out
