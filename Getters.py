@@ -95,10 +95,15 @@ def getNumber(prompt, debug = False):
     
     while not goodinput:
         word = input(prompt)
-        goodinput = True
         if isSwear(word, debug) :
             goodinput = False
+            
             print ("dont use language like that")
+        try:
+            float(word)
+            goodinput = True
+        except:
+            print("must be a number")
 
     return word
 
@@ -109,10 +114,13 @@ def getED(prompt, debug = False):
     
     while not goodinput:
         word = input(prompt)
-        goodinput = True
         if isSwear(word, debug) :
             goodinput = False
             print ("dont use language like that")
+        elif word.strip().lower()[-2:]=="ed":
+            goodinput = True
+        else:
+            print("The word must end in ed")
 
     return word
     
