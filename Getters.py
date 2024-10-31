@@ -84,33 +84,9 @@ def getAnimal(prompt, debug = False):
 
     return word
 
-def getVerb(prompt, debug = False):
-    if debug: print("getVerb Function")
 
-    goodinput = False
-    
-    while not goodinput:
-        word = input(prompt)
-        goodinput = True
-        if isSwear(word, debug) :
-            goodinput = False
-            print ("dont use language like that")
 
-    return word
 
-def getItem(prompt, debug = False):
-    if debug: print("getItem Function")
-
-    goodinput = False
-    
-    while not goodinput:
-        word = input(prompt)
-        goodinput = True
-        if isSwear(word, debug) :
-            goodinput = False
-            print ("dont use language like that")
-
-    return word
 
 def getNumber(prompt, debug = False):
     if debug: print("getNumber Function")
@@ -119,66 +95,32 @@ def getNumber(prompt, debug = False):
     
     while not goodinput:
         word = input(prompt)
-        goodinput = True
         if isSwear(word, debug) :
             goodinput = False
+            
             print ("dont use language like that")
+        try:
+            float(word)
+            goodinput = True
+        except:
+            print("must be a number")
 
     return word
 
-def getAdjective(prompt, debug = False):
-    if debug: print("getAdjective Function")
-
-    goodinput = False
-    
-    while not goodinput:
-        word = input(prompt)
-        goodinput = True
-        if isSwear(word, debug) :
-            goodinput = False
-            print ("dont use language like that")
-
-    return word
-
-def getOccupation(prompt, debug = False):
-    if debug: print("getOccupation Function")
-
-    goodinput = False
-    
-    while not goodinput:
-        word = input(prompt)
-        goodinput = True
-        if isSwear(word, debug) :
-            goodinput = False
-            print ("dont use language like that")
-
-    return word
-
-def getPlace(prompt, debug = False):
-    if debug: print("getPlace Function")
-
-    goodinput = False
-    
-    while not goodinput:
-        word = input(prompt)
-        goodinput = True
-        if isSwear(word, debug) :
-            goodinput = False
-            print ("dont use language like that")
-
-    return word
-
-def getRelative(prompt, debug = False):
+def getED(prompt, debug = False):
     if debug: print("getRelative Function")
 
     goodinput = False
     
     while not goodinput:
         word = input(prompt)
-        goodinput = True
         if isSwear(word, debug) :
             goodinput = False
             print ("dont use language like that")
+        elif word.strip().lower()[-2:]=="ed":
+            goodinput = True
+        else:
+            print("The word must end in ed")
 
     return word
     
