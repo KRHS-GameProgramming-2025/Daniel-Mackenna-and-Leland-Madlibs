@@ -19,10 +19,7 @@ def Story1(debug=False):
     occupation1 = getword ("Enter an Occupation: ", debug)
     verb4 = getED ("Enter a Verb ending in -ed: ", debug)
     place1 = getword ("Enter a Place: ", debug)
-    
-    
-    
-    
+
     out = "\n"
     out += "one day me and my friend, " + friendname1
     out += " were out playing " + sport1
@@ -33,7 +30,7 @@ def Story1(debug=False):
     out += ". we searched for it for " + number1 + " hours and found it again after it was " + adj1 + " out."
     out += "we used the " + item1 + " to lure the " + animal1 + " closer, then I grabbed the " + item2 + " and " + friendname1 + " grabbed the " + item3
     out += ". we " + verb3 + " the " + animal1 + " and were able to catch it."
-    out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to our " + relative1 + ", who is a " + occupation1
+    out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to our" + relative1 + ", who is a " + occupation1
     out += ". they " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
     out += ""
     out += ""

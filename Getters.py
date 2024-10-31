@@ -70,20 +70,22 @@ def getSport(prompt, debug = False):
             
     return word
     
+
+    
 def getAnimal(prompt, debug = False):
     if debug: print("getAnimal Function")
 
     goodinput = False
     
+ 
     while not goodinput:
         word = input(prompt)
         goodinput = True
         if isSwear(word, debug) :
             goodinput = False
             print ("dont use language like that")
-
+    
     return word
-
 
 
 
