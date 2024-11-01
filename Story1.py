@@ -38,8 +38,5 @@ def Story1(debug=False):
     out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to my " + relative1 + ", who is a " + occupation1
     out += ". they " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
     out += " after a while they " + verb5 + " back withe the " + animal1 + " and claimed they fully trained it."
-    out += ""
-    out += ""
-    out += ""
     
     return out
