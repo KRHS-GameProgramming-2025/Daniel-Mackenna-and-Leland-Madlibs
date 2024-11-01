@@ -19,6 +19,7 @@ def Story1(debug=False):
     occupation1 = getword ("Enter an Occupation: ", debug)
     verb4 = getED ("Enter a Verb ending in -ed: ", debug)
     place1 = getword ("Enter a Place: ", debug)
+    verb5 = getword ("Enter a Verb", debug)
     if animal1 == "gigantopithecus":
         relative1 = "father, Ralph von Koenigswald"
         occupation1 = "paleoanthropologist"
@@ -36,7 +37,7 @@ def Story1(debug=False):
     out += ". we " + verb3 + " the " + animal1 + " and were able to catch it."
     out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to my " + relative1 + ", who is a " + occupation1
     out += ". they " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
-    out += ""
+    out += " after a while they " + verb5 + " back withe the " + animal1 + " and claimed they fully trained it."
     out += ""
     out += ""
     out += ""
