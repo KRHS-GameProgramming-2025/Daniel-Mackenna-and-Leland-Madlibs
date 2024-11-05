@@ -9,6 +9,7 @@ def Story3(debug=True):
     
     out = "\n"
     out += "one day me and my friend, " + friendname1
+    out += "grabed a, "
     
     return out
 
