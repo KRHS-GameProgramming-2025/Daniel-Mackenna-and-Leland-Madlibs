@@ -136,7 +136,7 @@ def isSwear (word, debug = False):
     else:
         return False
     
-swearlist = ["poop", "pee"
+swearlist = ["poop", "pee", "shit", "fuck", "motherfucker", "cunt", "pussy", "dick", "cock", "ass", "nigger", "god damit", "damit", "heil hitler", "sucks", "bitch", "asshole", "penis", "slut", "whore", "how many jews can you fit in a voltswagon", "bullshit", "cocksucker", "damn", "fucker", "fucking", "hell", "holy shit", "horseshit", "jesus christ", "piss", "prick", "son of a bitch", "son of a whore", "crap", "goddam", "dumbass", "dickhead", "faggot", "bastard", "bloody hell"
 ]
 
 
