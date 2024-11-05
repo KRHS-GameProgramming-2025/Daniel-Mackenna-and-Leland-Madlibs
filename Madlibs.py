@@ -2,7 +2,7 @@ from Screens import *
 from Getters import *
 from Story1 import *
 from Story2 import *
-
+from Story3 import *
 
 def Madlibs(debug = False):
     if debug: print("Welcome to debug")
@@ -29,6 +29,11 @@ def Madlibs(debug = False):
             print (Story2())
             print ("\n")
             input("press enter to continue")
+        elif choice == "3":
+            print (Story3())
+            print ("\n")
+            input("press enter to continue")
 
 
-Madlibs(False)
+Madlibs(True)
+
