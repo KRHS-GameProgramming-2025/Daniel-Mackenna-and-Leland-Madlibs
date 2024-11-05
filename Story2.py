@@ -7,6 +7,7 @@ def Story2(debug=False):
     friendname1 = getword ('Enter a name: ', debug)
     song1 = getsong ('Enter a song: ', debug)
     animal1 = getanimal('Enter a animal: ', debug)
+    action
     
     
     
