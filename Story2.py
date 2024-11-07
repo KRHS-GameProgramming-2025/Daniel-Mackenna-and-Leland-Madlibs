@@ -4,10 +4,10 @@ def Story2(debug=False):
     if debug: print("Story1 Function")
     
     print("\n")
-    friendname1 = getword ('Enter a name: ', debug)
-    song1 = getsong ('Enter a song: ', debug)
-    animal1 = getanimal1('Enter a animal: ', debug)
-    action = getaction1("Enter a action word", dubug)
+    friendname1 = getword ("Enter a name: ", debug)
+    song1 = getword ("Enter a song: ", debug)
+    animal1 = getword ("Enter a animal: ", debug)
+    action = getword ("Enter a action word: ", debug)
     
     
     
