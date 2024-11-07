@@ -20,7 +20,7 @@ def Story1(debug=False):
     verb4 = getED ("Enter a Verb ending in -ed: ", debug)
     place1 = getword ("Enter a Place: ", debug)
     verb5 = getword ("Enter a Verb: ", debug)
-    if animal1.lower() == "gigantopithecus":
+    if animal1.lower().strip() == "gigantopithecus":
         relative1 = "father, Ralph von Koenigswald"
         occupation1 = "paleoanthropologist"
 
