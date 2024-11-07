@@ -26,8 +26,10 @@ def Story4(debug=False):
     item5 = getword ("Enter a plural valuable item: ", debug)
     item6 = getword ("Enter a plural valuable item: ", debug)
     shape1 = getword ("Enter a shape: ", debug)
-    
-    
+    time1 = getword ("Enter a plural word used for measuring time: ", debug)
+    smell1 = getword ("Enter something smelly: ", debug)
+    adjective4 = getword ("Enter an adjective: ", debug)
+    container1 = getword ("Enter a plural container: ", debug)
     
     
     out = "\n"
@@ -35,23 +37,18 @@ def Story4(debug=False):
     out += " when I found an abandoned " + place1 + " and decided to check it out."
     out += " I " + verb2 + " up to it and looked inside."
     out += " It was very " + adjective1 + ", " + adjective2 + ", and just overall " + adjective3
-    out += ". I decided it was a better idea to bring a friend, so i went back home. while is was " + verb2 + " home i felt like i was being followed and started " + verb2 + " faster."
-    out += " When i finally arrived at my home i grabbed my " + item1 + " and then " + verb3 + " over to my buddies " + place2
-    out += ". When i got to his " + place2 + " i greeted his " + relative1 + " at the door and asked if " + friendname1 + " was there. "
-    out += "as i said it " + friendname1 + " poked his " + humanpart1 + " out the door and greeted me. "
-    out += "I told him what i found and he " + verb4 + " back inside and grabbed a " + item2
+    out += ". I decided it was a better idea to bring a friend, so I went back home. While i was " + verb2 + " home I felt like I was being followed and started " + verb2 + " faster."
+    out += " When I finally arrived at my home I grabbed my " + item1 + " and then " + verb3 + " over to my buddies " + place2
+    out += ". When I got to his " + place2 + " I greeted his " + relative1 + " at the door and asked if " + friendname1 + " was there. "
+    out += "As I said it " + friendname1 + " poked his " + humanpart1 + " out the door and greeted me. "
+    out += "I told him what I found and he " + verb4 + " back inside and grabbed a " + item2
     out += ". We then " + verb5 + " all the way back to the " + place1
-    out += ". when we got, there we opened the door, walked around, and saw " + item3 + " and " + item4 + " stuck in the walls and all over the floor."
-    out += " we " + verb6 + " around even more in hopes of finding something interesting, but all we found was broken " + item5 + " and " + item6 
-    out += ". we then found a weirdly " + shape1 + " shape on one of the walls. i used the " + item1 + " that i brought to peel back the wallpaper which revealed a door. "
-    out += ""
-    out += ""
-    out += ""
-    out += ""
-    out += ""
-    out += ""
-    out += ""
-    out += ""
-    out += ""
+    out += ". When we got there, we opened the door, walked around, and saw " + item3 + " and " + item4 + " 5tuck in the walls and all over the floor."
+    out += " We " + verb6 + " around even more in hopes of finding something interesting, but all we found was broken " + item5 + " and " + item6 
+    out += ". We then found a weirdly " + shape1 + " shape on one of the walls. I used the " + item1 + " that I brought to peel back the wallpaper which revealed a door. "
+    out += "We slowly opened the door which revealed a descending staircase. we walked down for what seemed like " + time1
+    out += ". When we finally reached the bottom we were hit with a smell almost like " + smell1
+    out += ". We looked around for a bit but still found nothing of interest but " + adjective4 + " " + container1 + ". "
+    out += "We decided it was all just a waste of time, so we " + verb5 + " back home and called it a day."
 
     return out
