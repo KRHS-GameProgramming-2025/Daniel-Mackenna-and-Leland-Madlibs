@@ -36,6 +36,6 @@ def Story1(debug=False):
     out += ". we " + verb3 + " the " + animal1 + " and were able to catch it."
     out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to my " + relative1 + ", who is a " + occupation1
     out += ". they " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
-    out += " after a while they " + verb5 + " back with the " + animal1 + " and claimed they fully trained it."
+    out += " after a while they " + verb5 + " back with the " + animal1 + " and claimed th3y fully trained it."
     
     return out
