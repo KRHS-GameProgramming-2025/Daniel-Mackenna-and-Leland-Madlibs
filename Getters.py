@@ -140,6 +140,23 @@ def getED(prompt, debug = False):
             print("The word must end in ed")
 
     return word
+
+def getING(prompt, debug = False):
+    if debug: print("getRelative Function")
+
+    goodinput = False
+    
+    while not goodinput:
+        word = input(prompt)
+        if isSwear(word, debug) :
+            goodinput = False
+            print ("dont use language like that")
+        elif word.strip().lower()[-3:]=="ing":
+            goodinput = True
+        else:
+            print("The word must end in ing")
+
+    return word
     
     
     
