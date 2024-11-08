@@ -9,6 +9,7 @@ def Story2(debug=False):
     animal1 = getword ("Enter a animal: ", debug)
     action1 = getword ("Enter a action word: ", debug)
     game1 = getword ("Enter a game: ", debug)
+    gameanswer1 = getAnswer ("Play or not to play: ", debug)
     
     
     
@@ -19,6 +20,6 @@ def Story2(debug=False):
     out += " when suddenly " +  animal1
     out += " jumped out of no where and then we decided to " + action1
     out += " once we knew we were safe we decided to play a game called " + game1
-    out += " but it turned out that we were actually playing the original jumanji but we realized to late we had already started geting the game setup "
+    out += " but it turned out that we were actually playing the original jumanji but we realized to late we had already started geting the game setup so we decided to " + gameanswer1
     
     return out
