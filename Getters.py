@@ -162,7 +162,27 @@ def getING(prompt, debug = False):
     return word
     
 
+
+def getAnswer(prompt, debug = False):
+    if debug: print("getAnswer Function")
     
+
+    goodinput = False
+    
+    answer = ["play",
+               "do not play",
+               "dont play",
+               "not to play"]
+    
+    while not goodinput:
+        word = input(prompt)
+        goodinput = True
+        if isSwear(word, debug) :
+            goodinput = False
+            print ("dont use language like that")
+
+    return word
+
     
     
     
