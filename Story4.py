@@ -2,7 +2,7 @@ from Getters import *
 # Easter egg # = 5
 def Story4(debug=False):
     if debug: print("Story1 Function")
-    
+
     print("\n")
     verb1 = getING ("Enter a verb ending in -ing: ", debug)
     place1 = getword ("Enter a place: ", debug)
@@ -30,8 +30,8 @@ def Story4(debug=False):
     smell1 = getword ("Enter something smelly: ", debug)
     adjective4 = getword ("Enter an adjective: ", debug)
     container1 = getword ("Enter a plural container: ", debug)
-    
-    
+
+
     out = "\n"
     out += "once I was " + verb1 + " through the woods,"
     out += " when I found an abandoned " + place1 + " and decided to check it out."
