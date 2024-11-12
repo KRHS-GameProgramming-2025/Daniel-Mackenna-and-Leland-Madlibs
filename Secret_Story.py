@@ -8,7 +8,7 @@ def Secret_Story(debug=True):
 
     
     out = "\n"
-    out += " How diD YoU gEt HeRE yOu ShoUlD lEaVe BefOrE iT's tO LaTe Oh nO ThEre aLrEadY HeRe YoU NeED To rUn "
+    out += " How diD YoU gEt HeRE yOu ShoUlD lEaVe BefOrE iT's tOo LaTe. Oh nO ThEiR aLrEadY HeRe, YoU NeED To rUn. "
     out += " hey there he is get him " 
     if choice1 == "left":
         out += " l "

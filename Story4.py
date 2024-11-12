@@ -1,7 +1,7 @@
 from Getters import *
 # Easter egg # = 5
 def Story4(debug=False):
-    if debug: print("Story1 Function")
+    if debug: print("Story4 Function")
 
     print("\n")
     verb1 = getING ("Enter a verb ending in -ing: ", debug)

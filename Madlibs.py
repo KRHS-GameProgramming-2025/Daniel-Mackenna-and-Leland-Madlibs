@@ -40,7 +40,7 @@ def Madlibs(debug = False):
             print (Story4())
             print ("\n")
             input("press enter to continue")
-        elif choice == "310":
+        elif choice == "31058":
             print (Secret_Story())
             print ("\n")
             input("press enter to continue")
