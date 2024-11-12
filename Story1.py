@@ -1,5 +1,5 @@
 from Getters import *
-
+# Easter egg # = 3
 def Story1(debug=False):
     if debug: print("Story1 Function")
     
@@ -25,17 +25,17 @@ def Story1(debug=False):
         occupation1 = "paleoanthropologist"
 
     out = "\n"
-    out += "one day me and my friend, " + friendname1
+    out += "One day me and my friend, " + friendname1
     out += " were out playing " + sport1
     out += " when we found a " + animal1
     out += ", we " + verb1 + " home to " + verb2 + " something to catch it."
-    out += " we grabbed " + item1 + ", " + item2 + " and a " + item3 + "."
-    out += " we " + verb1 + " back to where we saw the " + animal1
-    out += ". we searched for it for " + number1 + " hours and found it again after it was " + adj1 + " out."
-    out += "we used the " + item1 + " to lure the " + animal1 + " closer, then I grabbed the " + item2 + " and " + friendname1 + " grabbed the " + item3
-    out += ". we " + verb3 + " the " + animal1 + " and were able to catch it."
-    out += " we " + verb1 + " back home again with the " + animal1 + " and showed it to my " + relative1 + ", who is a " + occupation1
-    out += ". they " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
-    out += " after a while they " + verb5 + " back with the " + animal1 + " and claimed th3y fully trained it."
+    out += " We grabbed " + item1 + ", " + item2 + " and a " + item3 + "."
+    out += " We " + verb1 + " back to where we saw the " + animal1
+    out += ". We s3arched for it for " + number1 + " hours and found it again after it was " + adj1 + " out."
+    out += "We used the " + item1 + " to lure the " + animal1 + " closer, then I grabbed the " + item2 + " and " + friendname1 + " grabbed the " + item3
+    out += ". We " + verb3 + " the " + animal1 + " and were able to catch it."
+    out += " We " + verb1 + " back home again with the " + animal1 + " and showed it to my " + relative1 + ", who is a " + occupation1
+    out += ". They " + verb4 + " us and took the " + animal1 + " to the " + place1 + "."
+    out += " After a while they " + verb5 + " back with the " + animal1 + " and claimed they fully trained it."
     
     return out
