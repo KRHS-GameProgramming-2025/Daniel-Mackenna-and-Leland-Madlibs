@@ -5,10 +5,10 @@ def Story3(debug=False):
     
     print("\n")
     friendname1 = getword ("Enter a name: ", debug)
-    item1 = getword ("Enter a Item used for diging: ", debug)
+    item1 = getword ("Enter a Item used for digging: ", debug)
     animal1 = getAnimal ("Enter a scary animal: ", debug)
     item2 = getword ("Enter a Item used for mining: ", debug)
-    food1 = getword ("Enter a food that you would have for diner: ", debug)
+    food1 = getword ("Enter a food that you would have for dinner: ", debug)
     
     out = "\n"
     out += " one day me and my friend " + friendname1

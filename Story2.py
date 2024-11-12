@@ -20,8 +20,8 @@ def Story2(debug=False):
     out += ", suddenly a " +  animal1
     out += " jumped out of no where, we decided to " + action1
     out += ". once we knew we were safe we decided to play a game called " + game1
-    out += ", but it turned out that we were actually playing the original jumanji, we realized to late, we had already started geting the game setup so we decided to " + gameanswer1
-    out += ", but it turned out that we didnt have a choice on weather we would play or not. "
+    out += ", but it turned out that we were actually playing the original jumanji, we realized too late, we had already started getting the game setup so we decided to " + gameanswer1
+    out += ", but it turned out that we didnt have a choice on whether we would play or not. "
     out += " THE END "
     
     return out
