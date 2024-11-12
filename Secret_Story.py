@@ -13,7 +13,7 @@ def Secret_Story(debug=True):
     if choice1 == "left":
         out += " l "
     elif choice1 == "right":
-        out += " r "
+        out += " that a dead end you fool  "
     
 
     
