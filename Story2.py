@@ -21,5 +21,8 @@ def Story2(debug=False):
     out += " jumped out of no where and then we decided to " + action1
     out += " once we knew we were safe we decided to play a game called " + game1
     out += " but it turned out that we were actually playing the original jumanji but we realized to late we had already started geting the game setup so we decided to " + gameanswer1
+    out += " but it turned out that we didnt have a choice on weather we would play or not "
+    out += "THE END"
     
     return out
+    
