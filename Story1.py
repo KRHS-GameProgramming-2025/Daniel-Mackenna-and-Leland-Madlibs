@@ -1,5 +1,5 @@
 from Getters import *
-
+# Easter egg # = 3
 def Story1(debug=False):
     if debug: print("Story1 Function")
     
