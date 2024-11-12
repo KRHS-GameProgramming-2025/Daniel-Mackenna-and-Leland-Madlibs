@@ -14,8 +14,8 @@ def Story2(debug=False):
     
     
     out = "\n"
-    out += "one day me and my friend " + friendname1
-    out += "were 1istening to a song called " + song1
+    out += " one day me and my friend " + friendname1
+    out += " were 1istening to a song called " + song1
     out += " and while we where listening to " + song1 
     out += " when suddenly " +  animal1
     out += " jumped out of no where and then we decided to " + action1
