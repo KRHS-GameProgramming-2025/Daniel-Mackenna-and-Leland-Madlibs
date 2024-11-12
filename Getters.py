@@ -42,7 +42,7 @@ def getMenuoption(debug = False):
                option = "4"
                goodinput = True
                
-        elif (option == "310"):
+        elif (option == "31058"):
                goodinput = True
                
         else:
