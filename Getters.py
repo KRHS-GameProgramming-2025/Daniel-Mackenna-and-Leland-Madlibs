@@ -40,6 +40,13 @@ def getMenuoption(debug = False):
            option == "story4" or
            option == "story 4"):
                option = "4"
+            
+               goodinput = True
+        elif (option == "5" or
+           option == "five" or
+           option == "story5" or
+           option == "story 5"):
+               option = "5"
                goodinput = True
                
         elif (option == "31058"):
