@@ -182,6 +182,26 @@ def getAnswer(prompt, debug = False):
             print ("dont use language like that")
 
     return word
+    
+def getItem(prompt, debug = False):
+    if debug: print("getItem Function")
+    
+
+    goodinput = False
+    
+    answer = ["hardware",
+               "metal",
+               "tools",
+               "wood"]
+    
+    while not goodinput:
+        word = input(prompt)
+        goodinput = True
+        if isSwear(word, debug) :
+            goodinput = False
+            print ("dont use language like that")
+
+    return word
 
     
     
