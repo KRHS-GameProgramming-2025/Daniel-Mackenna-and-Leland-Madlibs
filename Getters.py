@@ -114,6 +114,21 @@ def getAnimal(prompt, debug = False):
 
 
 
+def getBug(prompt, debug = False):
+    if debug: print("getBug Function")
+
+    goodinput = False
+    
+ 
+    while not goodinput:
+        word = input(prompt)
+        goodinput = True
+        if isSwear(word, debug) :
+            goodinput = False
+            print ("dont use language like that")
+    
+    return word
+
 
 def getNumber(prompt, debug = False):
     if debug: print("getNumber Function")
